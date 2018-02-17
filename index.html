@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Villian Fight RPG</title>
+
+	<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+ 
+	<script src="play.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+	<header>
+		<h2>Villian Showdown!</h2>
+	</header>
+
+	<div id="mainBody">
+
+		<div id="attackerArea" class="invisible"></div>
+		<div id="defenderArea" class="invisible"></div>
+
+		<div id="attackBtn" class="invisible">Attack!!</div>
+
+		<div id="choseFrom">
+			
+			<div class="villian" data-name="loki" id="loki">
+				<img src="images/loki.jpg" alt="Loki">
+				<p>200</p>
+			</div>
+
+			<div class="villian" data-name="saruman" id="saruman">
+				<img src="images/saruman.jpg" alt="Saruman">
+				<p>100</p>
+			</div>
+
+			<div class="villian" data-name="vader" id="vader">
+				<img src="images/vader.jpg" alt="Darth Vader">
+				<p>180</p>
+			</div>
+
+			<div class="villian" data-name="magneto" id="magneto">
+				<img src="images/magneto.jpg" alt="Magneto">
+				<p>150</p>
+			</div>
+
+			<div class="villian" data-name="voldy" id="voldy">
+				<img src="images/Voldemort.jpg" alt="Voldemort">
+				<p>120</p>
+			</div>
+
+		</div>
+
+		<div id="defeatedArea" class="invisible"></div>
+
+		<div id="alertArea" class="invisible"></div>
+
+	</div>
+
+</body>
+</html>

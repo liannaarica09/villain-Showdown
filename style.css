@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width:100%;
+	background-image: url("images/dark_wood.png");
+}
+
+h2 {
+	font-size:6em;
+	background-color: rgba(0, 0, 255, 0.5);
+	text-align: center;
+	padding:15px;
+}
+
+img {
+	cursor: pointer;
+	width:100%;
+	margin:auto;
+	border-radius:14px 14px 0px 0px;
+
+}
+
+#mainBody {
+	margin:auto;
+}
+
+#attackerArea {
+	float:left;
+}
+
+#defenderArea {
+	float:right;
+}
+
+#attackerArea,
+#defenderArea {
+	width:50%;
+	text-align: center;
+}
+
+#attackBtn {
+	margin: 0 auto;
+	text-align: center;
+	cursor: pointer;
+	background-color: rgba(0, 200, 150, 1);
+	width:10%;
+	padding:20px;
+	clear:both;
+	position:absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:14px;
+}
+
+#choseFrom {
+	width:100%;
+	text-align: center;
+	clear:both;
+	position:absolute;
+	bottom:100px;
+}
+
+.villian {
+	display:inline-block;
+	width: 19.2%;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius:15px;
+	box-shadow: 1px 1px 2px lightGrey;
+}
+
+#alertArea {
+	background-color: rgba(255, 0, 0, 1);
+	position:absolute;
+	padding:10%;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.invisible {
+	display:none;
+}
+
+.visible {
+	display:initial;
+}
+
